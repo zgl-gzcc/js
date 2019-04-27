@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>添加图书</title>
+        <link rel="stylesheet" type="text/css" href="/www/style.css">
+    </head>
+    <body>
+        <form action="/addBook" method="post">
+	        书名：<input type="text" name="name"><br>
+	        作者：<input type="text" name="author"><br>
+	        类别：<input type="text" name="category"><br>
+            数量：<input type="text" name="count" value="{{count}}"><br>
+	        <input type="submit" value="提交">
+        </form>
+    </body>
+</html>
